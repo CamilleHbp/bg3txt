@@ -1,28 +1,43 @@
 {
-  "name": "bg3txt",
-  "author": "CamilleHBP",
-  "publisher": "CamilleHBP",
-  "displayName": "bg3txt",
-  "description": "Syntax highlighting for BG3 text files",
-  "version": "0.0.1",
-  "repository": "github:CamilleHbp/bg3txt",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "bg3txt",
-      "aliases": ["BG3 Text", "bg3txt"],
-      "extensions": [""],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "bg3txt",
-      "scopeName": "source.bg3txt",
-      "path": "./syntaxes/bg3txt.tmLanguage.json"
-    }]
-  }
+	"name": "bg3txt",
+	"author": "CamilleHBP",
+	"publisher": "CamilleHBP",
+	"displayName": "bg3txt",
+	"description": "Syntax highlighting for BG3 text files",
+	"version": "0.0.1",
+	"repository": "github:CamilleHbp/bg3txt",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "bg3txt",
+				"aliases": [
+					"BG3 Text",
+					"bg3txt"
+				],
+				"extensions": [
+					""
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "bg3txt",
+				"scopeName": "source.bg3txt",
+				"path": "./syntaxes/bg3txt.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "85392e3d-d903-4d09-8f62-76a1a2427ad5",
+		"publisherDisplayName": "Camille HBP",
+		"publisherId": "fbb9807f-bc9a-4af6-9646-8586d64829e9",
+		"isPreReleaseVersion": false
+	}
 }

@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.bg3txt",
-				"match": "\\b(data|new entry|type|using)\\b"
+				"match": "\\b(add|CanMerge|category|data|entry|equipment|equipmentgroup|initialweaponset|new|object|subtable|treasuretable|type|using)\\b"
 			}]
 		},
 		"strings": {
