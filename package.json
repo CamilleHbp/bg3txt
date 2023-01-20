@@ -1,6 +1,7 @@
 {
   "name": "bg3txt",
   "author": "CamilleHBP",
+  "publisher": "CamilleHBP",
   "displayName": "bg3txt",
   "description": "Syntax highlighting for BG3 text files",
   "version": "0.0.1",
