@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "bg3txt",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.bg3txt",
+				"match": "\\b(data|new entry|type|using)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.bg3txt",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.bg3txt",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.bg3txt"
+}
